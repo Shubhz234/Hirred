@@ -1,9 +1,13 @@
-import React from 'react'
+import "./App.css"; // Only if App.css exists; otherwise remove this line
 
-const App = () => {
+import { Button } from "./components/ui/button";
+
+function App() {
   return (
-    <div className='text-amber-600 text-4xl font-bold'>Hello, world!</div>
+    <div>
+      <Button>Login</Button>
+    </div>
   )
 }
 
-export default App
+export default App;
